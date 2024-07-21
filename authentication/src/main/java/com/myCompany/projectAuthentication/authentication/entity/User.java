@@ -38,7 +38,7 @@ public class User implements UserDetails, Principal {
 
     private boolean enabled;
 
-    @ManyToMany(fetch = FetchType.LAZY)
+    @ManyToMany(fetch = FetchType.EAGER)
     private List<Role> roles;
 
     @CreatedDate
