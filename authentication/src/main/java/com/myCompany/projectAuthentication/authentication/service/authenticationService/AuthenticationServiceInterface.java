@@ -1,0 +1,2 @@
+package com.myCompany.projectAuthentication.authentication.service.authenticationService;public interface AuthenticationServiceInterface {
+}
